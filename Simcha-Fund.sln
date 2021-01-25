@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simcha-Fund", "Simcha-Fund\Simcha-Fund.csproj", "{1B349BC6-1792-4A3A-ABBF-CC0045A3715E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B349BC6-1792-4A3A-ABBF-CC0045A3715E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B349BC6-1792-4A3A-ABBF-CC0045A3715E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B349BC6-1792-4A3A-ABBF-CC0045A3715E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B349BC6-1792-4A3A-ABBF-CC0045A3715E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFB41B3D-82FD-4858-8529-8F7F218A0B11}
+	EndGlobalSection
+EndGlobal
