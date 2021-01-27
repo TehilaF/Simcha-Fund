@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SimchaFund" Class="ContributionDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=TOMMY\SQLEXPRESS;Initial Catalog=SimchaFund;Integrated Security=True" SettingsObjectName="Simcha_Fund.Data.Properties.Settings" SettingsPropertyName="SimchaFundConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Contributions" Member="Contributions">
+    <Type Name="Contribution">
+      <Column Name="SimchaId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ContributorId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

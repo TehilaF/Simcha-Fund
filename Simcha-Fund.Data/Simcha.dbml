@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SimchaFund" Class="SimchaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=TOMMY\SQLEXPRESS;Initial Catalog=SimchaFund;Integrated Security=True" SettingsObjectName="Simcha_Fund.Data.Properties.Settings" SettingsPropertyName="SimchaFundConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Simchas" Member="Simchas">
+    <Type Name="Simcha">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SimchaName" Type="System.String" DbType="VarChar(50)" CanBeNull="false" />
+      <Column Name="SimchaDate" Type="System.DateTime" DbType="Date" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

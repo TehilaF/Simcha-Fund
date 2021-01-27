@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Simcha">
+  <DataContextMoniker Name="/SimchaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c567c917-fef5-4086-98e4-222145f39976" absoluteBounds="2.125, 2, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SimchaDataContext/Simcha" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8234645d-6f1f-44a9-9883-a781029db080" absoluteBounds="2.14, 2.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
